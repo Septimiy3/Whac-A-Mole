@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Whac-A-Mole</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="label_start">Whac-A-Mole</string>
+</resources>
