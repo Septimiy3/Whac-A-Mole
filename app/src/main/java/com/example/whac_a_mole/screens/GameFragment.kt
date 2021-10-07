@@ -3,6 +3,7 @@ package com.example.whac_a_mole.screens
 
 import android.content.Context
 import android.content.Context.MODE_PRIVATE
+import android.content.Intent
 import android.os.Bundle
 import android.os.CountDownTimer
 import android.os.Handler
@@ -12,9 +13,6 @@ import com.example.whac_a_mole.replaceFragment
 import kotlinx.android.synthetic.main.fragment_game.*
 import kotlin.random.Random
 import android.content.SharedPreferences
-
-
-
 
 
 class GameFragment : Fragment(R.layout.fragment_game) {
@@ -30,12 +28,10 @@ class GameFragment : Fragment(R.layout.fragment_game) {
     }
 
     fun timerGame() {
-        val timer = object : CountDownTimer(30000, 1000) {
+        val timer = object : CountDownTimer(10000, 1000) {
             override fun onTick(millisUntilFinished: Long) {
                 view_timer.text = (millisUntilFinished / 1000).toString()
-
             }
-
             override fun onFinish() {
                 Stopped()
                 replaceFragment(ScoreFragment(), false)
