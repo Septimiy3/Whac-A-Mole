@@ -70,8 +70,8 @@
             android:layout_height="match_parent">
             <TableRow
                 android:id="@+id/table_row1"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
                 android:layout_weight="1">
 
                 <ImageView
@@ -95,8 +95,8 @@
             </TableRow>
             <TableRow
                 android:id="@+id/table_row2"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
                 android:layout_weight="1">
 
                 <ImageView
@@ -120,8 +120,8 @@
             </TableRow>
             <TableRow
                 android:id="@+id/table_row3"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
                 android:layout_weight="1">
 
                 <ImageView
